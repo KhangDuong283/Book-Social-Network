@@ -20,10 +20,8 @@ public class UserProfile {
     @Id
     @GeneratedValue(generatorClass = UUIDStringGenerator.class)
     String id;
-
-    @Property("user_id")
+    @Property("userId")
     String userId;
-
     String firstName;
     String lastName;
     LocalDate dob;
